@@ -4,7 +4,14 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('home');
+		// return view('welcome_message');
+		return view('resto/Index');
+	}
+
+	public function reservasi()
+	{
+		// return view('welcome_message');
+		return view('resto/Reservasi');
 	}
 
 	//--------------------------------------------------------------------
