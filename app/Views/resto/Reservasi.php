@@ -38,22 +38,22 @@
 	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css')?>">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/icomoon.css')?>">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css')?>">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/flexslider.css')?>">
 	<!-- Date Time -->
-	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap-datetimepicker.min.css')?>">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css')?>">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="<?php echo base_url('assets/js/modernizr-2.6.2.min.js')?>"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -74,19 +74,19 @@
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="menu.html">Menu</a></li>
-							<li class="has-dropdown">
+						<li><a href="index.html">Home</a></li>
+							<!-- <li class="has-dropdown">
 								<a href="gallery.html">Gallery</a>
 								<ul class="dropdown">
 									<li><a href="#">Events</a></li>
 									<li><a href="#">Food</a></li>
 									<li><a href="#">Coffees</a></li>
 								</ul>
-							</li>
-							<li class="active"><a href="reservation.html">Reservation</a></li>
-							<li><a href="about.html">About</a></li>
+							</li> -->
+							<li class="active"><a href="<?= base_url('/Home');?>">Reservation</a></li>
+							<!-- <li><a href="about.html">About</a></li> -->
 							<li><a href="contact.html">Contact</a></li>
+							<li><a href="menu.html">Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -269,25 +269,25 @@
 	</div>
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery.min.js')?>"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery.easing.1.3.js')?>"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery.waypoints.min.js')?>"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery.stellar.min.js')?>"></script>
 	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery.flexslider-min.js')?>"></script>
 
 	<!-- Date Time -->
-	<script src="js/moment.min.js"></script>
-	<script src="js/bootstrap-datetimepicker.js"></script>
+	<script src="<?php echo base_url('assets/js/moment.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/bootstrap-datetimepicker.js')?>"></script>
 	
 
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="<?php echo base_url('assets/js/main.js')?>"></script>
 
 	</body>
 </html>
