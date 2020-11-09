@@ -1,13 +1,15 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controlles\Cabang;
+
+use App\Controllers\BaseController;
 
 class Cabang extends BaseController
 {
     public function index()
     {
         $data = [
-            'title' => 'Home - Nelongso Group'
+            'title' => 'Cabang - Nelongso Group'
         ];
         return view('resto/Index', $data);
     }

@@ -4,7 +4,7 @@ use CodeIgniter\Model;
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class ModelName extends Model
+class Booking extends Model
 {
 
     protected $table = 'Booking';
