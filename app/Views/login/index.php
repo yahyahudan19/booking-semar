@@ -59,7 +59,7 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button class="login100-form-btn" href="<?= base_url('Login/Login(username,pass)');?>">
 							Login
 						</button>
 					</div>
