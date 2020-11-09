@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tasty &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title><?= $title ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -71,7 +71,7 @@
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-							<li class="active"><a href="<?= base_url('/index');?>">Home</a></li>
+							<li class="active"><a href="<?= base_url('/Home');?>">Home</a></li>
 							<!-- <li class="has-dropdown">
 								<a href="gallery.html">Gallery</a>
 								<ul class="dropdown">
@@ -80,7 +80,7 @@
 									<li><a href="#">Coffees</a></li>
 								</ul>
 							</li> -->
-							<li><a href="<?= base_url('/reservasi');?>">Reservation</a></li>
+							<li><a href="<?= base_url('/home/outlet');?>">Outlet</a></li>
 							<!-- <li><a href="about.html">About</a></li> -->
 							<li><a href="contact.html">Contact</a></li>
 							<li><a href="menu.html">Login</a></li>
@@ -269,7 +269,7 @@
 		</div>
 	</div> -->
 
-	<div id="fh5co-blog" class="fh5co-section">
+	<!-- <div id="fh5co-blog" class="fh5co-section">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -288,7 +288,7 @@
 							<ul class="stuff">
 								<li><i class="icon-heart2"></i>1.2K</li>
 								<li><i class="icon-eye2"></i>2K</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="<?= base_url('/home/reservasi');?>">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
 					</div>
@@ -298,12 +298,12 @@
 						<a href="#" class="blog-bg" style="background-image: url(assets/images/6.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Feb. 15th 2016</span>
-							<h3><a href="#">Ayam Goreng Nelongso - Dieng</a></h3>
+							<h3><a href="#">Ayam Goreng Nelongso - <br>Dieng</br></a></h3>
 							<p>Alamat: Jl. Indah Dieng, Sumberjo, Kalisongo, Kec. Dau, Malang, Jawa Timur 65116</p>
 							<ul class="stuff">
 								<li><i class="icon-heart2"></i>1.2K</li>
 								<li><i class="icon-eye2"></i>2K</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="<?= base_url('/home/reservasi');?>">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
 					</div>
@@ -313,21 +313,21 @@
 						<a href="#" class="blog-bg" style="background-image: url(assets/images/7.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Feb. 15th 2016</span>
-							<h3><a href="#">Ayam Goreng Nelongso - Suhat</a></h3>
-							<p>Alamat: Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</p>
+							<h3><a href="#">Ayam Goreng Nelongso - <br>Suhat</br></a></h3>
+							<p>Alamat: Jl. Soekarno Hatta No. 32 Kav. 1 Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</p>
 							<ul class="stuff">
 								<li><i class="icon-heart2"></i>1.2K</li>
 								<li><i class="icon-eye2"></i>2K</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="<?= base_url('/home/reservasi');?>">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
-	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(assets/images/2.jpg);" data-stellar-background-ratio="0.5">
+	<!-- <div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(assets/images/2.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
@@ -338,7 +338,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
 		<div class="container">
