@@ -13,8 +13,17 @@ class Home extends BaseController
 	public function reservasi()
 	{
 		// return view('welcome_message');
-		return view('resto/Reservasi');
+		$data = [
+			'title' => 'Reservasi - Nelongso Group'
+		];
+		return view('resto/Reservasi',$data);
 	}
+	
+	public function outlet()
+    {
+        // return view('welcome_message');
+        return view('resto/Outlet');
+    }
 
 	//--------------------------------------------------------------------
 

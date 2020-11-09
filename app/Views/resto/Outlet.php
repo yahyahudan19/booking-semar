@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?= $title ?></title>
+	<title>Tasty &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -38,22 +38,19 @@
 	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css')?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css') ?>">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/icomoon.css')?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/icomoon.css') ?>">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css')?>">
-
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css') ?>">
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/flexslider.css')?>">
-	<!-- Date Time -->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap-datetimepicker.min.css')?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/flexslider.css') ?>">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css')?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css') ?>">
 
 	<!-- Modernizr JS -->
-	<script src="<?php echo base_url('assets/js/modernizr-2.6.2.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/modernizr-2.6.2.min.js') ?>"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -67,29 +64,29 @@
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<!-- <div class="top-menu"> -->
-			<!-- <div class="container">
+			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center logo-wrap">
-						<div id="fh5co-logo"><a href="<?= base_url('/Home');?>">Tasty<span>.</span></a></div>
+						<div id="fh5co-logo"><a href="index.html">Nelongso Group</a></div>
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-						<li><a href="<?= base_url('/Home');?>">Home</a></li>
-							<li class="has-dropdown">
+							<li><a href="<?= base_url('/Home');?>">Home</a></li>
+							<!-- <li class="has-dropdown">
 								<a href="gallery.html">Gallery</a>
 								<ul class="dropdown">
 									<li><a href="#">Events</a></li>
 									<li><a href="#">Food</a></li>
 									<li><a href="#">Coffees</a></li>
 								</ul>
-							</li>
-							<li class="active"><a href="<?= base_url('/Home/reservasi');?>">Reservation</a></li>
-							<li><a href="about.html">About</a></li>
+							</li> -->
+							<li class="active"><a href="<?= base_url('/home/outlet');?>">Outlet</a></li>
+							<!-- <li><a href="about.html">About</a></li> -->
 							<li><a href="contact.html">Contact</a></li>
 							<li><a href="menu.html">Login</a></li>
 						</ul>
 					</div>
-				</div> -->
+				</div>
 				
 			</div>
 		<!-- </div> -->
@@ -102,8 +99,8 @@
 				<div class="col-md-12 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<h1>Reserved a Table Today!</h1>
-							<h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+							<h1>See <em>Our</em> Outlet</h1>
+							<!-- <h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2> -->
 						</div>
 					</div>
 				</div>
@@ -111,59 +108,88 @@
 		</div>
 	</header>
 
-	
-	<div id="fh5co-reservation-form" class="fh5co-section">
+	<div id="fh5co-featured-menu" class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Reservation</h2>
+					<h2>Our Locations</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
+							<p>11 cabang, 9 cabang  yang tersebar di Malang 2 cabang yang ada di Surabaya dan rencananya akan membuka cabang di Kediri dan di Bandung</p>
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6">
-					<form action="#" id="form-wrap">
-						<div class="row form-group">
-							<div class="col-md-12">
-								<label for="name">Your Name</label>
-								<input type="text" class="form-control" id="name">
-							</div>
-						</div>
-						<div class="row form-group">
-							<div class="col-md-12">
-								<label for="many">How Many People</label>
-								<select name="many" id="many" class="form-control custom_select">
-									<option value="#">1</option>
-									<option value="#">2</option>
-									<option value="#">3</option>
-									<option value="#">4+</option>
-								</select>
-							</div>
-						</div>
-						<div class="row form-group">
-							<div class="col-md-12">
-								<label for="taskdatetime">When</label>
-								<input type="text" name="task-datetime" id="taskdatetime" class="form-control"/>
-							</div>
-						</div>
-						<div class="row form-group">
-							<div class="col-md-12">
-								<input type="submit" class="btn btn-primary btn-outline btn-lg" value="Submit Form">
-							</div>
-						</div>
-
-					</form>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+					<div class="fh5co-item animate-box">
+						<img src="<?php echo base_url('assets/images/5.jpg')?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+                        <h3>Ayam Goreng Nelongso - Borobudur</h3>
+						<!-- <span class="fh5co-price">$20<sup>.50</sup></span> -->
+						<br><p>Alamat: Jl. Soekarno Hatta No.23, Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</p>
+                        <p><a href="<?= base_url('/home/reservasi');?>">Reservation</a></p>
+                    </div>
+					<div class="fh5co-item animate-box">
+						<img src="<?php echo base_url('assets/images/6.jpg')?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Ayam Goreng Nelongso - Dieng</h3>
+						<!-- <span class="fh5co-price">$20<sup>.50</sup></span> -->
+                        <br><p>Jl. Indah Dieng, Sumberjo, Kalisongo, Kec. Dau, Malang, Jawa Timur 65116</p>
+                        <p><a href="<?= base_url('/home/reservasi');?>">Reservation</a></p>
+					</div>
 				</div>
-				
-				
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+					<div class="fh5co-item margin_top animate-box">
+						<img src="<?php echo base_url('assets/images/7.jpg')?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Ayam Goreng Nelongso - Suhat</h3>
+						<!-- <span class="fh5co-price">$19<sup>.00</sup></span> -->
+                        <br><p>Jl. Soekarno Hatta No. 32 Kav. 1 Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</p>
+                        <p><a href="<?= base_url('/home/reservasi');?>">Reservation</a></p>
+					</div>
+					<div class="fh5co-item animate-box">
+						<img src="<?php echo base_url('assets/images/8.jpg')?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Ayam Goreng Nelongso - Bendungan Sutami</h3>
+						<!-- <span class="fh5co-price">$20<sup>.50</sup></span> -->
+						<br><p>Alamat Jl. Bendungan Sutami No. 3A Malang</p>
+                        <p><a href="<?= base_url('/home/reservasi');?>">Reservation</a></p>
+                    </div>
+				</div>
+				<div class="clearfix visible-sm-block visible-xs-block"></div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+					<div class="fh5co-item animate-box">
+						<img src="<?php echo base_url('assets/images/8.jpg')?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Ayam Goreng Nelongso - Sigura gura</h3>
+						<!-- <span class="fh5co-price">$17<sup>.99</sup></span> -->
+						<br><p>Alamat Jl. Sigura-gura Barat Ruko Baru No. 2 Malang</p>
+                        <p><a href="<?= base_url('/home/reservasi');?>">Reservation</a></p>
+                    </div>
+					<div class="fh5co-item animate-box">
+						<img src="<?php echo base_url('assets/images/8.jpg')?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Ayam Goreng Nelongso - Sukun</h3>
+						<!-- <span class="fh5co-price">$20<sup>.50</sup></span> -->
+						<br><p>Alamat Jl. Kepuh No. 9A Malang</p>
+                        <p><a href="<?= base_url('/home/reservasi');?>">Reservation</a></p>
+                    </div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+					<div class="fh5co-item margin_top animate-box">
+						<img src="<?php echo base_url('assets/images/8.jpg')?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Ayam Goreng Nelongso - Sawojajar</h3>
+						<!-- <span class="fh5co-price">$22<sup>.50</sup></span> -->
+						<br><p>Alamat Jl. Danau Bratan Jaya Blok E-3/H-13 Malang</p>
+                        <p><a href="<?= base_url('/home/reservasi');?>">Reservation</a></p>
+                    </div>
+					<div class="fh5co-item animate-box">
+						<img src="<?php echo base_url('assets/images/8.jpg')?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Ayam Goreng Nelongso - Buring</h3>
+						<!-- <span class="fh5co-price">$20<sup>.50</sup></span> -->
+						<br><p>Jl. Mayjen Sungkono No.99, Buring</p>
+                        <p><a href="<?= base_url('/home/reservasi');?>">Reservation</a></p>
+                    </div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-featured-testimony" class="fh5co-section">
+	<!-- <div id="fh5co-featured-testimony" class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
@@ -175,10 +201,10 @@
 					</div>
 				</div>
 
-				<div class="col-md-5 animate-box img-to-responsive animate-box" data-animate-effect="fadeInLeft">
+				<div class="col-md-5 animate-box img-to-responsive">
 						<img src="images/person_1.jpg" alt="">
 				</div>
-				<div class="col-md-7 animate-box" data-animate-effect="fadeInRight">
+				<div class="col-md-7 animate-box">
 					<blockquote>
 						<p> &ldquo; Quantum ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam. &rdquo;</p>
 						<p class="author"><cite>&mdash; Jane Smith</cite></p>
@@ -186,9 +212,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	
 	
 	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
@@ -214,9 +239,9 @@
 					<h4>Links</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="#">Home</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Blog</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">Menu</a></li>
-						<li><a href="#">Gallery</a></li>
 					</ul>
 				</div>
 
@@ -269,25 +294,19 @@
 	</div>
 	
 	<!-- jQuery -->
-	<script src="<?php echo base_url('assets/js/jquery.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.min.js') ?>"></script>
 	<!-- jQuery Easing -->
-	<script src="<?php echo base_url('assets/js/jquery.easing.1.3.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.easing.1.3.js') ?>"></script>
 	<!-- Bootstrap -->
-	<script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
 	<!-- Waypoints -->
-	<script src="<?php echo base_url('assets/js/jquery.waypoints.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.waypoints.min.js') ?>"></script>
 	<!-- Waypoints -->
-	<script src="<?php echo base_url('assets/js/jquery.stellar.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.stellar.min.js') ?>"></script>
 	<!-- Flexslider -->
-	<script src="<?php echo base_url('assets/js/jquery.flexslider-min.js')?>"></script>
-
-	<!-- Date Time -->
-	<script src="<?php echo base_url('assets/js/moment.min.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/bootstrap-datetimepicker.js')?>"></script>
-	
-
+	<script src="<?php echo base_url('assets/js/jquery.flexslider-min.js') ?>"></script>
 	<!-- Main -->
-	<script src="<?php echo base_url('assets/js/main.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/main.js') ?>"></script>
 
 	</body>
 </html>
