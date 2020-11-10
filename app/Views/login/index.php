@@ -61,7 +61,7 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" href="<?= base_url('Login/Login(username,pass)'); ?>">
+						<button class="login100-form-btn" href="<?= base_url('/login/login'); ?>">
 							Login
 						</button>
 					</div>

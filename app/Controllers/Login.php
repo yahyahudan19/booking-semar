@@ -19,16 +19,18 @@ class Login extends BaseController
         return view('login/index',$data);
     }
 
-    public function Login(string $username, string $password)
+
+    // public function Login(string $username, string $password)
+    public function Login()
     {
         return view('resto/Admin');
-        $user = $this->userModel->findAll();
-        if ($user['username'] == $username && $user['password'] == $password) {
-            return view('resto/Admin', $user);
-        }
-        else {
-            echo 'username & password salah';
-        }
+        // $user = $this->userModel->findAll();
+        // if ($user['username'] == $username && $user['password'] == $password) {
+        //     return view('resto/Admin', $user);
+        // }
+        // else {
+        //     echo 'username & password salah';
+        // }
         
     }
 

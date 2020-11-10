@@ -7,10 +7,9 @@ class Cabang extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Cabang - Nelongso Group'
-            
+            'title' => 'Cabangku - Nelongso Group'
+
         ];
         return view('resto/Outlet', $data);
     }
-
 }
