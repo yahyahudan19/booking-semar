@@ -40,6 +40,14 @@ class Home extends BaseController
 		// return view('welcome_message');
 		return view('resto/Outlet',$data);
 	}
+	public function admin()
+	{
+		$data = [
+			'title' => 'Admin - Nelongso Group'
+		];
+		// return view('welcome_message');
+		return view('resto/Admin', $data);
+	}
 
 	//--------------------------------------------------------------------
 

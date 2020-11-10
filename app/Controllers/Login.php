@@ -12,8 +12,14 @@ class Login extends BaseController
     {
        $this->userModel = new User(); 
     }
+    public function index(){
+        $data = [
+            'title' => 'Login - Nelongso Group'
+        ];
+        return view('login/index',$data);
+    }
 
-    public function index(string $username, string $password)
+    public function Login(string $username, string $password)
     {
         return view('resto/Admin');
         $user = $this->userModel->findAll();
@@ -41,6 +47,3 @@ class Login extends BaseController
         #return redirect ke page login
     }
 }
-
-
-?>

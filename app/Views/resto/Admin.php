@@ -8,14 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <title>Hello, Admin!</title>
+    <title><?= $title?></title>
   </head>
   <body>
 
   <table class="table">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">No</th>
       <th scope="col">Alamat Cabang</th>
       <th scope="col">Kuota Cabang</th>
       <th scope="col">Action</th>
@@ -27,7 +27,7 @@
       <th scope="row">1</th>
       <td>Malang</td>
       <td>30</td>
-      <a class="btn btn-primary" href="#" role="button">Edit</a>
+      <td><a class="btn btn-primary" href="#" role="button">Edit</a></td>
     </tr>
   </tbody>
 </table>

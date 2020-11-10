@@ -125,11 +125,11 @@
 					<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
 						<div class="fh5co-item animate-box">
 							<img src="<?php echo base_url('assets/images/5.jpg') ?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
-							<h3>Ayam Goreng Nelongso - Borobudur</h3>
+							<h3 id="Cabang1">Ayam Goreng Nelongso - Borobudur</h3>
 							<!-- <span class="fh5co-price">$20<sup>.50</sup></span> -->
 							<br>
-							<p>Alamat: Jl. Soekarno Hatta No.23, Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</p>
-							<p><a href="<?= base_url('/home/reservasi'); ?>">Reservation</a></p>
+							<p id="alamat1">Alamat: Jl. Soekarno Hatta No.23, Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</p>
+							<button type="submit"><a href="<?= base_url('/outlet/reservasi'); ?>">Reservation</a></button>
 						</div>
 						<div class="fh5co-item animate-box">
 							<img src="<?php echo base_url('assets/images/6.jpg') ?>" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
