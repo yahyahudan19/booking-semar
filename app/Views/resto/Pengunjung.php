@@ -48,7 +48,6 @@
                     </a>
                 </div>
                 <ul class="nav">
-                    <li class="nav-item active">
                         <a class="nav-link" href="<?= base_url('/admin/admin'); ?>">
                             <p>Dashboard</p>
                         </a>
@@ -59,7 +58,7 @@
                             <p>User Profile</p>
                         </a>
                     </li> -->
-                    <li>
+                    <li class="nav-item active">
                         <a class="nav-link" href="<?= base_url('/admin/pengunjung'); ?>">
                             <i class="nc-icon nc-notes"></i>
                             <p>Table List</p>
@@ -172,23 +171,24 @@
                         <div class="col-md-12">
                             <div class="card strpied-tabled-with-hover">
                                 <div class="card-header ">
-                                    <h4 class="card-title">Data Cabang</h4>
+                                    <h4 class="card-title">Data Pengunjung</h4>
                                     <!-- <p class="card-category">Here is a subtitle for this table</p> -->
                                 </div>
                                 <div class="card-body table-full-width table-responsive">
                                     <table class="table table-hover table-striped">
                                         <thead>
                                             <th>ID</th>
-                                            <th>Alamat Cabang</th>
-                                            <th>Kuota Cabang</th>
-                                            <th>Action</th>
+                                            <th>Nama</th>
+                                            <th>Telepon</th>
+                                            <th>Tanggal</th>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                              <td>1</td>
-                                              <td>Malang</td>
-                                              <td>30</td>
-                                              <td><a class="btn btn-primary" href="#" role="button">Edit</a></td>
+                                                <!-- <td>1</td>
+                                                <td>Dakota Rice</td>
+                                                <td>$36,738</td>
+                                                <td>Niger</td>
+                                                <td>Oud-Turnhout</td> -->
                                             </tr>
                                             <tr>
                                                 <!-- <td>2</td>
@@ -292,17 +292,6 @@
                                     </table> -->
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                <!-- <div class="card-footer ">
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="now-ui-icons loader_refresh spin"></i> Updated 3 minutes ago
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
