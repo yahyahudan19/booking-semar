@@ -157,7 +157,7 @@
                                 </div> -->
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
+                                <a class="nav-link" href="<?= base_url('/Home'); ?>">
                                     <span class="no-icon">Log out</span>
                                 </a>
                             </li>
@@ -190,7 +190,7 @@
                                               <td>30</td>
                                               <td><a class="btn btn-primary" href="#" role="button">Edit</a></td>
                                             </tr>
-                                            <tr>
+                                            
                                                 <!-- <td>2</td>
                                                 <td>Minerva Hooper</td>
                                                 <td>$23,789</td>

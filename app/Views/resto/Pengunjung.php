@@ -48,7 +48,7 @@
                     </a>
                 </div>
                 <ul class="nav">
-                        <a class="nav-link" href="<?= base_url('/admin/admin'); ?>">
+                        <a class="nav-link" href="<?= base_url('/admin'); ?>">
                             <p>Dashboard</p>
                         </a>
                     </li>
@@ -290,6 +290,7 @@
                                             </tr>
                                         </tbody>
                                     </table> -->
+                                
                                 </div>
                             </div>
                         </div>

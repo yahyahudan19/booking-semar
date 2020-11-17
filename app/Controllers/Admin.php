@@ -2,13 +2,18 @@
 
 namespace App\Controllers;
 
+//defined('BASEPATH') OR exit('No direct script access allowed');
+
 class Admin extends BaseController
 {
-    // public function __construct() 
+
+    protected $bookingModel;
+    
+    // public function __construct()
     // {
-    //     $this->InfoResto = new Admin();
-        
+    //     $this->bookingModel = new Booking();
     // }
+
 	public function index() 
 	{
 		$data = [
@@ -21,10 +26,15 @@ class Admin extends BaseController
 
 	public function pengunjung()
 	{
-		$data = [
-			'title' => 'Pengunjung - Nelongso Group'
-		];
-		// return view('welcome_message');
+		 $data = [
+             'title' => 'Pengunjung - Nelongso Group'
+         ];
+
+         //$bookingModel = new \App\Models\Booking();
+         //$data  = $this->bookingModel->findAll();
+
+        // return view('welcome_message');
+
 		return view('resto/Pengunjung', $data);
 	}
 
