@@ -1,102 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-	<title><?= $title ?></title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="<?php echo base_url('assets/login/images/icons/favicon.ico') ?>">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/login/vendor/bootstrap/css/bootstrap.min.css') ?>">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css') ?>>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/fonts/iconic/css/material-design-iconic-font.min.css') ?>>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/vendor/animate/animate.css') ?>>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/vendor/css-hamburgers/hamburgers.min.css') ?>>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/vendor/animsition/css/animsition.min.css') ?>>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/vendor/select2/select2.min.css') ?>>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/vendor/daterangepicker/daterangepicker.css') ?>>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/css/util.css') ?>>
-	<link rel="stylesheet" type="text/css" href=<?php echo base_url('assets/login/css/main.css') ?>>
-	<!--===============================================================================================-->
-</head>
-
-<body>
-
-	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-			<div class="wrap-login100">
-				<form class="login100-form validate-form">
-					<span class="login100-form-logo">
-						<i class="zmdi zmdi-landscape"></i>
-					</span>
-
-					<span class="login100-form-title p-b-34 p-t-27">
-						Log in
-					</span>
-
-					<div class="wrap-input100 validate-input" data-validate="Enter username">
-						<input class="input100" type="text" name="username" placeholder="Username">
-						<span class="focus-input100" data-placeholder="&#xf207;"></span>
-					</div>
-
-					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="pass" placeholder="Password">
-						<span class="focus-input100" data-placeholder="&#xf191;"></span>
-					</div>
-
-					<div class="contact100-form-checkbox">
-						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-						<label class="label-checkbox100" for="ckb1">
-							Remember me
-						</label>
-					</div>
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" href="<?= base_url('/login/login'); ?>">
-							Login
-						</button>
-					</div>
-
-					<div class="text-center p-t-90">
-						<a class="txt1" href="#">
-							Forgot Password?
-						</a>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-
-
-	<div id="dropDownSelect1"></div>
-
-	<!--===============================================================================================-->
-	<script src="<?php echo base_url('assets/login/vendor/jquery/jquery-3.2.1.min.js') ?>"></script>
-	<!--===============================================================================================-->
-	<script src="<?php echo base_url('assets/login/vendor/animsition/js/animsition.min.js') ?>"></script>
-	<!--===============================================================================================-->
-	<script src="<?php echo base_url('assets/login/vendor/bootstrap/js/popper.js') ?>"></script>
-	<!--===============================================================================================-->
-	<script src="<?php echo base_url('assets/login/vendor/bootstrap/js/bootstrap.min.js') ?>"></script>
-	<!--===============================================================================================-->
-	<script src="<?php echo base_url('assets/login/vendor/select2/select2.min.js') ?>"></script>
-	<!--===============================================================================================-->
-	<script src="<?php echo base_url('assets/login/vendor/daterangepicker/moment.min.js') ?>"></script>
-	<script src="<?php echo base_url('assets/login/vendor/daterangepicker/daterangepicker.js') ?>"></script>
-	<!--===============================================================================================-->
-	<script src="<?php echo base_url('assets/login/vendor/countdowntime/countdowntime.js') ?>"></script>
-	<!--===============================================================================================-->
-	<script src="<?php echo base_url('assets/login/js/main.js') ?>"></script>
-
-</body>
-
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+ 
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+ 
+            <div class="col-6">
+                <h1>Sign In</h1>
+                <?php if(session()->getFlashdata('msg')):?>
+                    <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
+                <?php endif;?>
+                <form action="/Login/auth" method="post">
+                    <div class="mb-3">
+                        <label for="InputForEmail" class="form-label">Username</label>
+                        <input type="username" name="user_name" class="form-control" id="user_name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputForPassword" class="form-label">Password</label>
+                        <input type="password" name="user_password" class="form-control" id="user_password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+             
+        </div>
+    </div>
+     
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
 </html>
